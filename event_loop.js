@@ -12,6 +12,7 @@ const server  = http.createServer((req, res) => {
         res.write('welcome to the server')
         return res.end()
     }
+    
 
     if(req.url === '/about'){
         // bloking code
